@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - change-ddrk-url
     paths:
       - '.github/workflows/docker-release.yml'
       - 'lib/**'
